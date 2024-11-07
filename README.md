@@ -31,7 +31,7 @@ After installation, use the `francinette` or `paco` command inside your project'
 Copy and paste the following line into your terminal to kick off the installation, and you'll be all set to start testing your school 42 projects with Francinette in no time!
 
 ```shell
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/WaRtr0/francinette-image/master/install.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/gdtknight/francinette-image/master/install.sh)"
 ```
 
 ## Update:
@@ -39,13 +39,13 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/WaRtr0/francinette-image
 Copy and paste the following line into your terminal to launch the francinette update
 
 ```shell
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/WaRtr0/francinette-image/master/update.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/gdtknight/francinette-image/master/update.sh)"
 ```
 
 ## Uninstall:
 
 ```shell
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/WaRtr0/francinette-image/master/uninstall.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/gdtknight/francinette-image/master/uninstall.sh)"
 ```
 ## Documentation
 
