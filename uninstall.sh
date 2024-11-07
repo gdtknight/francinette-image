@@ -1,14 +1,16 @@
 #!/bin/bash
 
-mkdir -p $HOME/.tmp_francinette
+MY_PATH=$HOME/goinfre
 
-git clone https://github.com/WaRtr0/francinette-image.git $HOME/.tmp_francinette/francinette-image
+mkdir -p $MY_PATH/.tmp_francinette
 
-source $HOME/.tmp_francinette/francinette-image/utils/remove_docker.sh
-source $HOME/.tmp_francinette/francinette-image/utils/remove_zshrc.sh
+git clone https://github.com/WaRtr0/francinette-image.git $MY_PATH/.tmp_francinette/francinette-image
 
-rm -rf $HOME/francinette-image
-rm -rf $HOME/.tmp_francinette
+source $MY_PATH/.tmp_francinette/francinette-image/utils/remove_docker.sh
+source $MY_PATH/.tmp_francinette/francinette-image/utils/remove_zshrc.sh
+
+rm -rf $MY_PATH/francinette-image
+rm -rf $MY_PATH/.tmp_francinette
 
 WHITE='\033[0;37m' 
 BLUE='\033[0;36m'

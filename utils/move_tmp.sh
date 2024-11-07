@@ -1,5 +1,5 @@
 #!/bin/bash
-mkdir -p $HOME/.tmp_francinette
-if ls -l $HOME/francinette-image | grep "francinette.tar" &> /dev/null; then
-    mv /home/$USER/francinette-image/francinette.tar /home/$USER/.tmp_francinette/
+mkdir -p $HOME/goinfre/.tmp_francinette
+if ls -l $HOME/goinfre/francinette-image | grep "francinette.tar" &> /dev/null; then
+    mv /home/$USER/goinfre/francinette-image/francinette.tar /home/$USER/goinfre/.tmp_francinette/
 fi
